@@ -2,7 +2,7 @@ aid: patrick-industries
 url: https://raw.githubusercontent.com/api-evangelist/patrick-industries/refs/heads/main/apis.yml
 name: Patrick Industries
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Building Products
   - RV
@@ -19,7 +19,7 @@ apis:
       - Building Products
       - RV
       - Marine
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://api.patrickind.com
     humanURL: https://developer.patrickind.com
     properties:
