@@ -28,6 +28,8 @@ apis:
     description: >-
       The Patrick Industries API provides access to platform services and data for enterprise integration and automation.
 common:
+  - type: DomainSecurity
+    url: security/patrick-industries-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/patrickindustries
   - type: Website

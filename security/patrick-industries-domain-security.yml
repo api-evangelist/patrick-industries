@@ -1,0 +1,26 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.patrickind.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 10 17:58:08 2026 GMT
+  hsts: false
+- host: developer.patrickind.com
+  https: true
+  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,
+    certificate is not valid for ''developer.p'
+  hsts: null
+- host: api.patrickind.com
+  https: true
+  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,
+    certificate is not valid for ''api.patrick'
+  hsts: null
+domains:
+- domain: patrickind.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
