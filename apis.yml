@@ -23,7 +23,7 @@ description: >-
   Patrick Industries is a major US corporation and Fortune 1000 company. The Patrick Industries API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
 created: '2026-04-19'
 modified: '2026-04-19'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: patrick-industries:patrick-industries-api
     name: Patrick Industries API
