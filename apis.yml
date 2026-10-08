@@ -51,6 +51,12 @@ apis:
     description: >-
       The Patrick Industries API provides access to platform services and data for enterprise integration and automation.
 common:
+  - type: Plans
+    url: plans/patrick-industries-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/patrick-industries-rate-limits.yml
+  - type: FinOps
+    url: finops/patrick-industries-finops.yml
   - type: DomainSecurity
     url: security/patrick-industries-domain-security.yml
   - type: LinkedIn
